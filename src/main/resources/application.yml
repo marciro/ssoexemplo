@@ -1,0 +1,13 @@
+azure:
+  activedirectory:
+    b2c:
+      base-uri: https://marciro.b2clogin.com/marciro.onmicrosoft.com/
+      client-id: ed918470-5550-4204-a46c-d02e98cea00e
+      client-secret: 'rCS7Q~4c1LHL26dx98Wl.nxDiwCcRkWoZXdWU'
+      login-flow: B2C_1_ssoexemplo
+      logout-success-url: http://localhost:8080/
+      user-flows:
+        sign-up-or-sign-in: B2C_1_ssoexemplo
+        profile-edit: B2C_1_profile_ssoexemplo 
+        password-reset: B2C_1_ssoexemplo
+      user-name-attribute-name: username
